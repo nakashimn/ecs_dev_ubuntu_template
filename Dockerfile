@@ -20,6 +20,7 @@ COPY --from=builder /usr/local/lib /usr/local/lib
 
 RUN apt update
 RUN DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends \
+    ca-certificates \
     git
 
 RUN git config --global --add safe.directory /workspace
