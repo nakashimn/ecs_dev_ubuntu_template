@@ -1,0 +1,18 @@
+{
+	"name": "ecs_dev_ubuntu_template",
+	"dockerComposeFile": "../compose.yaml",
+	"service": "ecs_dev_ubuntu_template",
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-toolsai.jupyter",
+				"donjayamanne.githistory",
+				"eamodio.gitlens",
+				"ryuta46.multi-command"
+			]
+		}
+	}
+}
