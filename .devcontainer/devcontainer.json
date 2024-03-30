@@ -6,9 +6,6 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"donjayamanne.githistory",
-				"eamodio.gitlens",
-				"ryuta46.multi-command"
 			]
 		}
 	}
